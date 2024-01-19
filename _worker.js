@@ -94,7 +94,7 @@ export default {
 						});
 					}
 					default:
-						url.hostname = 'digikala.ir';
+						url.hostname = 'zula.ir';
 						url.protocol = 'https:';
 						request = new Request(url, request);
 						return await fetch(request);
